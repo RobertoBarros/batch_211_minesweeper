@@ -1,16 +1,17 @@
 {
-  "name": "javascript-101",
+  "name": "minesweeper",
   "version": "1.0.0",
-  "description": "Starting code for First JavaScript ES6 lecture",
-  "main": "index.js",
-  "repository": "https://github.com/lewagon/javascript-101",
-  "author": "ssaunier",
+  "description": "Minesweeper JS",
+  "main": "browser.js",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^4.3.0",
-    "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.7.0",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "webpack": "4.19.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
   }
 }
